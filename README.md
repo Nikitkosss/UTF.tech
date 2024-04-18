@@ -11,7 +11,7 @@ Django ORM (предпочтительно), Raw SQL, Sqlalchemy…
 Написать View который вернет для API 127.0.0.1/api/v1/foods/
 
 Установка
-
+```
 git clone https://github.com/Nikitkosss/UTF.tech.git
 python -m venv venv
 pip intall -r requirements.txt
@@ -19,3 +19,4 @@ cd django_task
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+```
